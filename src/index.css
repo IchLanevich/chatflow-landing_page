@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+
+.hero {
+  background: conic-gradient(from 195.53deg at 73.54% 17.77%, #4629F2 0deg, #13C6FF 125.63deg, #B94DFB 215.62deg, #FF53EE 294.38deg, #F3B960 360deg);
+}
+
+.product-section-bg{
+  background: conic-gradient(from 180deg at 69.58% 44.09%, #F5AC76 0deg, #FECB7F 360deg);
+}
+
+.plan-card{
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.STARTER {
+  background-color: #4635F3;
+}
+.PROFESSIONAL{
+  background-color: #F5AC76;
+}
+.ENTERPRISE{
+  background-color: #FF5391;
+}
